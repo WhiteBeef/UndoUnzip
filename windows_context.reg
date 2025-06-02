@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.zip\shell\Rollback Unpack]
+[HKEY_CLASSES_ROOT\.zip\shell\Rollback Unpack\command]
+@="wscript \"C:\\scripts\\rollback_launcher.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.rar\shell\Rollback Unpack]
+[HKEY_CLASSES_ROOT\.rar\shell\Rollback Unpack\command]
+@="wscript \"C:\\scripts\\rollback_launcher.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.tar\shell\Rollback Unpack]
+[HKEY_CLASSES_ROOT\.tar\shell\Rollback Unpack\command]
+@="wscript \"C:\\scripts\\rollback_launcher.vbs\" \"%1\""
